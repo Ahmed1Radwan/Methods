@@ -5,18 +5,19 @@ ID : 4
 
 
 // our main class
-public class LinkedListNode {
-	int value;
-	LinkedListNode next;
-	
-	
-	public int getValue(LinkedListNode node) {
-		return node.value;
-	}
-	public LinkedListNode getNext(LinkedListNode node) {
-		return node.next;
-	}
-}
+
+		public class LinkedListNode {
+			int value;
+			LinkedListNode next;
+
+
+			public int getValue(LinkedListNode node) {
+				return node.value;
+			}
+			public LinkedListNode getNext(LinkedListNode node) {
+				return node.next;
+			}
+		}
 
 /////////////////////////////////
 
