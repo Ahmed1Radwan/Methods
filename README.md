@@ -29,7 +29,7 @@ ID : 4
 			double[] ans = new double[] {0,0,0,0,0};
 			LinkedListNode temp = head;
 			if(temp == null || temp.next == null) {
-				return head;
+				return ans;
 			}else {
 			int count=0;
 			ans[3] = temp.value;
